@@ -1,0 +1,387 @@
+ <!-- FlatFy Theme - Andrea Galanti /-->
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Code Hunt 2018">
+    <meta name="author" content="Prafful Lachhwani">
+<link rel="icon" type="image/png" href="img/ch_logo.png">
+    <title>Code Hunt 2018</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+ 
+    <!-- Custom Google Web Font -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+	
+    <!-- Custom CSS-->
+    <link href="css/general.css" rel="stylesheet">
+	
+	 <!-- Owl-Carousel -->
+    <link href="css/custom.css" rel="stylesheet">
+	<link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	
+	<!-- Magnific Popup core CSS file -->
+	<link rel="stylesheet" href="css/magnific-popup.css"> 
+	
+	<script src="js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
+	<!--[if IE 9]>
+		<script src="js/PIE_IE9.js"></script>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/PIE_IE678.js"></script>
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+<style>
+    
+    </style>
+</head>
+
+<body id="home">
+<div class="modal fade" id="login" tabindex="-1" role="dialog">
+			<div class="modal-dialog">
+                            <!-- Modal content-->  <form method="post" action="auth.php">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<center><h3><i class="fa fa-user" aria-hidden="true"></i> Log IN</h3></center>
+                                        </div>
+                                              <div class="modal-body">
+
+                                                 <div class="form-row">
+
+                                                    <div class="form-group col-md-6">
+
+                                                        <input type="email" class="form-control" id="un" name="un" placeholder="Your Email" required>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+
+                                                        <input type="password" class="form-control" id="pwd" name="pwd" placeholder="Password" required>
+                                                    </div>
+                                                     
+                                                  </div><br>
+                                  
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="submit" class="btn btn-primary">Log IN</button>
+                                     
+                                    </div>
+                                </div></form>
+				<!-- //Modal content-->
+			</div>
+		</div>
+	<!-- Preloader -->
+	<div id="preloader">
+		<div id="status"></div>
+	</div>
+	
+	<!-- FullScreen -->
+    <div class="intro-header">
+		<div class="col-xs-12 text-center abcen1">
+			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">C&lt;/&gt;de Hunt 2K!8</h1>
+			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Hunt your Skills</h3>
+			<ul class="list-inline intro-social-buttons">
+				<li><a href="login/login.html" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s" >Login</a>
+				</li>
+				<li id="download" ><a href="#about" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Learn More</span></a>
+				</li>
+			</ul>
+		</div>    
+        <!-- /.container -->
+		<div class="col-xs-12 text-center abcen wow fadeIn">
+			<div class="button_down "> 
+				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#about"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+			</div>
+		</div>
+    </div>
+	
+	<!-- NavBar-->
+	<nav class="navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#home">C&lt;/&gt;de Hunt 2K!8</a>
+			</div>
+
+			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li class="menuItem"><a href="#home">Home</a></li>
+					<li class="menuItem"><a href="#about">About</a></li>
+                                        <li class="menuItem"><a href="login/login.html" >Login</a></li>
+                                        <li class="menuItem"><a href="#register">Register</a></li>
+					<!--<li class="menuItem"><a href="#credits">Instruction</a></li>-->
+					<!--<li class="menuItem"><a href="#credits">Credits</a></li>-->
+				</ul>
+			</div>
+		   
+		</div>
+	</nav> 
+	
+	
+	
+	 <div id="about" class="content-section-b"> 
+		
+		<div class="container">
+            <div class="row">
+                <div class="col-sm-5 wow fadeInLeftBig">
+                     <div id="owl-demo-1" class="owl-carousel">
+						<a href="img/ch_logo.png" class="image-link">
+							<div class="item slideshow-item">
+                                                            <img  class="img-responsive img-rounded" src="img/ch_logo.png" alt="">
+							</div>
+						</a>
+						
+					</div>       
+                </div>
+<!--                <script>
+                 var items=document.getElementsByClassName("slideshow-item");
+                    var owl=document.getElementsByClassName("owl-page");
+                    console.log(items);
+                    var i=0;
+                    var value=0;
+                   
+                    setInterval(repeat,2000);
+                  function repeat()
+                    {
+                        i=0;
+                         while(i<items.length)
+                        {
+                            items[i].style.display="none";
+                            owl[i].style.display="none";
+                             
+                            console.log("loop:"+i);
+                            
+                        if(i<3)
+                      {
+                          i++;
+                      }
+                        
+                            
+                        
+                               
+                        }
+                      
+                        items[value].style.display="block";
+                      
+                        value++;
+                        console.log("value:"+value);
+                        if(value<3)
+                      {
+                          
+                      }
+                        else{
+                            value=0;
+                        }
+                    
+                    }
+                    
+                </script>-->
+                <div class="col-sm-7 wow fadeInRightBig"  data-animation-delay="200">   
+                    <h3 class="section-heading">About Code Hunt 2018</h3>
+					<div class="sub-title lead3">Hunt Your Skilss</div>
+                    <p class="lead">
+						Code Hunt is an educational coding quiz.<br>
+                                                The participant has to answer the multiple choice questioning fragments by striving their programming skills.<br>
+                                                This event is language independent.<br>
+                                                Try to resolve it by implementing your coding caliber.<br>
+                                                "Come, Code and win the game;<br>
+                                                let others remember your name.
+					</p>
+
+					 <p><a class="btn btn-embossed btn-primary" href="login/login.html" role="button">Login</a> 
+                                             <a class="btn btn-embossed btn-info" href="#register" role="button">Register</a></p>
+				</div>  			
+			</div>
+        </div>
+    </div>
+	
+	
+	
+	
+
+
+	
+            <div  class="content-section-c " style="display: none;">
+                <div class="container">
+                    <div class="row">
+                    <div class="col-md-6 col-md-offset-3 text-center white">
+                        <h2>Get Live Updates</h2>
+                        <p class="lead" style="margin-top:0">A special thanks to Death.</p>
+                     </div>
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        <div class="mockup-content">
+                                <div class="morph-button wow pulse morph-button-inflow morph-button-inflow-1">
+                                    <button type="button"><span>Subscribe to our Newsletter</span></button>
+                                    <div class="morph-content">
+                                        <div>
+                                            <div class="content-style-form content-style-form-4 ">
+                                                <h2 class="morph-clone">Subscribe to our Newsletter</h2>
+                                                <form>
+                                                    <p><label>Your Email Address</label><input type="text"/></p>
+                                                    <p><button>Subscribe me</button></p>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>	
+                    </div>
+                </div>
+            </div>	
+	
+	
+	<!-- register -->
+	<div id="register" class="content-section-a">
+		<div class="container">
+			<div class="row">
+			
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>Register</h2>
+				<p class="lead" style="margin-top:0">To Code Hunt 2018</p>
+			</div>
+			
+			 <form role="form" action="register.php" method="post">
+				<div class="col-md-6 col-md-offset-3 wrap_title">
+                                   
+					<div class="form-group">
+						
+						<div class="input-group">
+							<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+                                    
+                                    <div class="form-group">
+						
+						<div class="input-group">
+							<input type="email" class="form-control" name="InputEmail" id="InputEmail" placeholder="Enter Email Address" required>
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+                                    
+                                    <div class="form-group">
+						
+						<div class="input-group">
+                                                    <input type="tel" pattern="[0-9]{10}" maxlength="10" class="form-control" name="InputPhone" id="InputPhone" placeholder="Enter Phone number" required>
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+					
+					
+                    
+                    <div class="form-group">                    
+                    <div class="input-group">
+							<input type="text" class="form-control" name="InputClg" id="InputClg" placeholder="Enter Your College Name" required>
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+					
+					<div class="form-group">
+						
+						<div class="input-group">
+							<input type="tel" class="form-control" id="InputRN" name="InputRN" placeholder="Enter Receipt number" required  >
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+                                    
+
+
+					<input type="submit" name="submit" id="submit" value="Register" class="btn wow tada btn-embossed btn-primary pull-right">
+				</div>
+                             </form>
+			
+			
+			
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<!-- Credits-->
+<!--	<div id="credits" class="content-section-b" style="border-top: 0">
+		<div class="container">
+
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>Credits</h2>
+				<p class="lead" style="margin-top:0"></p>
+				
+			</div>
+			
+			<div class="row">
+			
+				<div class="col-sm-12 wow fadeInDown text-center">
+				  <img src="img/prafful.gif" height="150" width="150">
+				  <h3>Prafful Lachhwani</h3> 
+				  <p class="lead">Full Stack Developer<br>Founder & CEO <a href="Http://Shadowsoft.in">Shadow Softwares</p>
+
+				   <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> 
+				</div> /.col-lg-4 
+				
+				
+				
+			</div> /.row 
+				
+		</div>
+	</div>-->
+	
+	
+	
+	
+	
+    <footer>
+        <div class="container" style="background-color: black; width: 100%;">
+        <div class="row">
+          <center><h5>Copyright © 2018 Code Hunt. All Rights Reserved.</h5></center>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/script.js"></script>
+	<!-- StikyMenu -->
+	<script src="js/stickUp.min.js"></script>
+	<script type="text/javascript">
+	  jQuery(function($) {
+		$(document).ready( function() {
+		  $('.navbar-default').stickUp();
+		  
+		});
+	  });
+	
+	</script>
+	<!-- Smoothscroll -->
+	<script type="text/javascript" src="js/jquery.corner.js"></script> 
+	<script src="js/wow.min.js"></script>
+	<script>
+	 new WOW().init();
+	</script>
+	<script src="js/classie.js"></script>
+	<script src="js/uiMorphingButton_inflow.js"></script>
+	<!-- Magnific Popup core JS file -->
+	<script src="js/jquery.magnific-popup.js"></script> 
+</body>
+
+</html>
